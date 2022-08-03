@@ -1,0 +1,12 @@
+python --version
+
+or
+
+python3 --version
+
+> This will give you what python version installed in your local system
+
+
+python3
+
+> To open the python command line interface 

@@ -1,0 +1,19 @@
+How Python Stores the values in its memory?
+
+What is a variable Why we need one ?
+
+How to declare a variable ?
+
+comments in python.
+
+python syntax.
+
+indentation in Python.
+
+
+GitHub
+
+    Cloning the repository
+
+    Create individual  branch
+    

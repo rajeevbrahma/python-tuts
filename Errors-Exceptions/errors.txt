@@ -1,0 +1,19 @@
+Indentation Error 
+    
+    Example - 
+
+            print ("Hey")
+            ^
+            IndentationError: expected an indented block
+
+Syntax Error 
+
+    Example - 
+         print "Hello world"
+          ^
+        SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Hello world")?
+
+
+NameError
+
+TypeError
