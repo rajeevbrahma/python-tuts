@@ -19,6 +19,13 @@ Register using Email and Password
 
     # git branch -al
 
+- To add specific files to the commit
+
+    # git add <path/file1name> <path/file2name>
+
+- To add all the changed files to the commit
+
+    # git add .
 
 - Delete a local branch
 
