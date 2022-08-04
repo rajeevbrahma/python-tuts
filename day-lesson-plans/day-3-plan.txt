@@ -1,0 +1,29 @@
+
+PYTHON:
+    
+    DATATYPES IN PYTHON
+
+
+    Text Type       :	str
+    
+        positive indexing of the string
+    
+    Numeric Types   :	int, float
+       
+    Boolean Type    :	bool
+    
+    None Type       :	NoneType
+
+
+    Get the type of a variable
+
+    Type casting
+
+
+Exercise :
+
+    Create the First Python file and execute it in the terminal
+
+GITHUB :
+
+    None

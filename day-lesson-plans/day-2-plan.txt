@@ -13,7 +13,5 @@ indentation in Python.
 
 GitHub
 
-    Cloning the repository
-
     Create individual  branch
     
