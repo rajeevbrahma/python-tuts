@@ -1,0 +1,10 @@
+
+GitHub :
+
+    Create access token in the github
+    
+    Clone the remote repository
+
+    Push the first code
+
+    how to handle with the merge conflicts
