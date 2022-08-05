@@ -38,6 +38,7 @@ step 3 - byte code will be executed through python virtual machine (interpreter)
         this pvm takes care of the conversion of bytecode to machine code.
 
 
+![Alt text](images/execution-process.png)
 
 # sourcecode - bytecode - machinecode
 
@@ -56,6 +57,11 @@ bytecode :
 Machinecode: (binary formatted code)
     Code that Machine (CPU) can read and understand directly and process it.
     We get to this machinecode stage after interpretation or compilation. 
+
+
+# How Python references variables
+
+![Alt text](images/python-way-of-storing-values.png)
 
 
 # garbage collection
