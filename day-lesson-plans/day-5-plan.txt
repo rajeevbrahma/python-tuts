@@ -1,0 +1,33 @@
+GitHub : with Mac Revision
+
+    Create access token in the github
+    
+    Clone the remote repository
+
+    Push the first code
+
+Python :
+
+    Strings
+        Negative indexing, slicing
+    
+
+Exercise : weekend
+
+    Clone your own repository.
+
+    Write a program to pring 
+
+            biodata of a sample person X
+            Name,Age,marital,children,
+
+            "I am learning Python"
+
+            use slicing concepts on the above and print the words
+
+            make sure you have in-line
+
+
+    push your code to the repository
+
+    share your code link in the group
