@@ -83,4 +83,33 @@ print (first_name[2])           # index 2 Character in the string
 print (first_name[3])           # index 3 Character in the string
 
 
+print (first_name[-1])           # index -1 Character in the string
+print (first_name[-2])           # index -2 Character in the string
+print (first_name[-3])           # index -3 Character in the string
+print (first_name[-4])           # index -4 Character in the string
+
+# ------------- SLICING ------------------
+
+# positive index
+
+print (first_name[:])           # prints all characters in the string
+print (first_name[0:2])         # starts with index 0 and ends before index 2
+print (first_name[3:])          # starts with index 3 and prints rest of the string
+print (first_name[:4])          # starts with default 0 and ends before index 4
+
+# negative index
+
+print (first_name[:])           # prints all characters in the string
+print (first_name[-4:-1])       # starts with index -4 and ends before index -1
+print (first_name[-2:])         # starts with index -2 and prints rest of the string
+print (first_name[:-3])         # starts with default 0 and ends before index -3
+
+# combination
+
+print (first_name[-4:4])        # starts with index -4 and ends before index 4
+print (first_name[-4:3])        # starts with index -4 and ends before index 3
+
+# -------------- build in function len ------------
+
+print (len(first_name))         # To know the length of a string / list
 
