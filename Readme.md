@@ -63,7 +63,9 @@ Machinecode: (binary formatted code)
 
 ![Alt text](images/python-way-of-storing-values.png)
 
+# List Indexing
 
+![Alt text](images/list_indexing.png)
 # garbage collection
 
 what is garbage collection ?
