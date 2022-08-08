@@ -4,7 +4,7 @@ Register using Email and Password
 
 - Clone a repository
 
-    # git clone "gitrepourl"
+    # git clone "git-repo-url"
 
 - Pull the changes of a repository
 
@@ -39,3 +39,6 @@ Register using Email and Password
 
     # git mv "FolderName" temp && git mv temp "foldername"
 
+- to stash all the changes made
+
+    # git stash
