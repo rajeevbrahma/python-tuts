@@ -48,3 +48,23 @@ print ("helloworld")
 # # print "hello"
 
 # print ("hellow")
+
+
+"""
+   -15 -14        -7    -4 -3 -2 -1
+    ||||||||||||||||
+    this is a string 
+    ||||||||||||||||
+    0123456789
+
+
+
+
+
+    built-in functions
+
+        len()
+
+    
+
+"""
