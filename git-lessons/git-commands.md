@@ -42,3 +42,7 @@ Register using Email and Password
 - to stash all the changes made
 
     # git stash
+
+- To push the locally created branch changes to the remote repo
+
+    # git push --set-upstream origin <branchname>

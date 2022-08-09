@@ -1,0 +1,17 @@
+Python : 
+
+    String methods
+
+    How to define variables in Python ?
+
+
+GitHub : 
+
+    Solved an issue - 
+            Learned the process to push the changes when we have a new branch created 
+            locally before we create it in the GitHub(Remote) repository and trying 
+            to push the changes to it.
+
+
+    git push --set-upstream origin <branch name>
+
