@@ -1,0 +1,22 @@
+Python:
+
+    List and its methods
+
+    Exercise : 
+        Write a Program to create a list of Continents and 
+                                    some of its countries and 
+                                    languages spoken in each country 
+
+        Create an empty list and name it "continent_and_countries"
+        Create "countries_list" for each continent
+        add the countries and languages spoken one by one using append and insert
+        Sort the list 
+        reverse the list
+GitHub: 
+
+    Exercise :
+        To create a Repo
+        To create a Clone
+        add the file
+        Push the changes
+    
