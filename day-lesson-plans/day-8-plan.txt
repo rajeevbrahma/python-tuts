@@ -1,0 +1,19 @@
+Python:
+
+    Rest of list methods methods
+
+    Review the Exercise given
+
+GitHub: 
+
+    Exercise :
+        To create a Repo
+        To create a Clone
+        add the file
+        Push the changes
+
+Video :
+
+    how to push an existing local folder as a git repo to the GitHub
+    
+    change master to main 
