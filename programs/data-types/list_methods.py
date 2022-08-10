@@ -29,65 +29,34 @@ python_batch_details[2].insert(2,20)
 
 python_batch_details[3][3].insert(1,"Rick")
 
+# day - 8 
+python_batch_details[0] = "This list is about the Python class Details" 
 
+python_batch_details.extend(["8:30PM to 10:00PM EST"])
+
+python_batch_details.extend([["8:30PM to 10:00PM EST","6:00AM to 7:30PM IST"]])
+
+print (python_batch_details.index(instructor_details))
+
+python_batch_details.reverse()
+
+python_batch_details.pop()
+python_batch_details.pop(1)
+
+
+
+python_batch_details[0:2] = ["sample value"]
+# python_batch_details[0:] = ["sample value"]
+
+another_python_batch_details_variable = python_batch_details.copy()
+
+
+print ([1,2,3,4]+[5,6,7])
 
 # please ignore this following code ------------
-# ,"-----> ",python_batch_details.index(list_element),"\n"
-for list_element in python_batch_details:
-    print (list_element,"\n")
+for index,list_element in enumerate(python_batch_details):
+    print (f" INDEX = {index}, LIST ELEMENT = {list_element} \n")
 # --------------- end of code -----
 
+print (another_python_batch_details_variable)
 
-# [python-tuts-[programs-[data-types-[list_mehtods.py]]]]
-
-
-
-
-
-
-
-
-
-
-# #  EXAMPLE 2 :
-# list_variable = ["apple","bat","cat","dog"]
-
-# list_variable.append("elephant")
-
-# print (list_variable)
-
-# new_list_variable = list_variable.copy()
-
-# print (new_list_variable)
-
-# print (list_variable.count("cat"))
-
-# list_variable.extend(["fan","goat"])
-# print (list_variable)
-
-# print (list_variable.index("goat"))
-
-# list_variable.insert(1,"ball")
-
-# print (list_variable)
-
-# list_variable.pop(2)
-# print (list_variable)
-
-# list_variable.remove("ball")
-
-# print (list_variable)
-
-# list_variable.reverse()
-# print (list_variable)
-
-# list_variable.sort()
-# print (list_variable)
-
-# list_variable[1] = "ant"
-# print (list_variable)
-
-# list_variable[2:4] = ["bank","car"]
-# print (list_variable)
-
-# print ([1,2,3,4]+[5,6,7])
