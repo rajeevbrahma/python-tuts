@@ -16,7 +16,7 @@ list_example = [1,2,3,"raj",4.5,True,[1,2,3]]
 
 """
 
-    1,2,3,"raj",4.5,True,[1,2,3,[[[[1]]]],"python"]
+    1,2,3,"raj",4.5,True,[1,2,3,"python"]
 
                                  ||||||
                                  012345
@@ -48,3 +48,4 @@ jsa;ldkjfasldjfa \
 ]
 
 print (bio_data)
+
