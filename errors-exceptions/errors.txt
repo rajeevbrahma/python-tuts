@@ -14,6 +14,18 @@ Syntax Error
         SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Hello world")?
 
 
+IndexError: 
+
+    Example - 
+
+          a = [1,2,3]
+               | | |
+               0 1 2
+         
+          print (a[3])
+
+        IndexError: list index out of range
+
 NameError
 
 TypeError
