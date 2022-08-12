@@ -26,6 +26,25 @@ IndexError:
 
         IndexError: list index out of range
 
+    Means when you try to access a value with an index which is more than the length of that list
+    then we can see the IndexError. 
+    
+
+
+  KeyError: 
+
+    Example - 
+
+        dictionary_variable = {"name":"Mark","age":20}
+
+        print (dictionary_variable["ag"])
+
+        KeyError : ag
+
+    Means when you try to access a value with a key which does not exist in the dictionary yet
+    then you can see this KeyError
+
+
 NameError
 
 TypeError

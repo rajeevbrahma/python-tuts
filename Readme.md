@@ -66,6 +66,11 @@ Machinecode: (binary formatted code)
 # List Indexing
 
 ![Alt text](images/list_indexing.png)
+
+# List and Dictionary Difference
+
+![Alt text](images/list_dictionary_difference.png)
+
 # garbage collection
 
 what is garbage collection ?

@@ -60,3 +60,34 @@ for index,list_element in enumerate(python_batch_details):
 
 print (another_python_batch_details_variable)
 
+
+
+"""
+
+        -9-8-7-6-5-4-3-2-1    
+    a = [1,2,3,4,5,6,7,8,9]
+         0,1,2,3,4
+
+    a[:4]
+    a[:-5]
+
+    a[ starting number index : ending number index + 1 : step (positive/negative) ]
+
+    a = [1,2,3,4,5,6,7,8,9]
+         0,1,2,3,4,5,6,7,8   - index
+         
+           0,1,2,3
+                 0,1,2,3
+                       0,1,2,3
+                           0,1,2
+
+        1, 3,  5,  7
+Paul -  0,0+2,2+2,4+2  
+
+    a[::2]
+
+
+
+
+
+"""
