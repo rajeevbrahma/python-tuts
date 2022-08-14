@@ -62,3 +62,79 @@ print (dictionary_variable)
 print (dictionary_variable["age"])
 
  
+"""
+ 
+    Dictionary Methods
+    
+        >>> a = {"name":"Mark","age":40,"Degree":"MS"}
+
+    -- copy()
+
+        >>> b = a.copy()
+        >>> b
+        {'name': 'Mark', 'age': 40, 'Degree': 'MS'}
+    
+    -- get()
+
+        >>> a.get('name')
+        'Mark'
+        >>> a.get('age')
+        40
+        >>> a.get('Degree')
+        'MS'
+
+    -- items()
+        >>> a.items()
+        dict_items([('name', 'Mark'), ('age', 40), ('Degree', 'MS')])
+    
+    -- keys()
+        >>> a.keys()
+        dict_keys(['name', 'age', 'Degree'])
+
+    -- values()
+        >>> a.values()
+        dict_values(['Mark', 40, 'MS'])
+    
+    -- update()
+        >>> a.update({"Degree":"MTech"})
+        >>> a
+        {'name': 'Mark', 'age': 40, 'Degree': 'MTech'}
+        >>> a.update({"Job-Title":"Sr SW Engineer"})
+        >>> a
+        {'name': 'Mark', 'age': 40, 'Degree': 'MTech', 'Job-Title': 'Sr SW Engineer'}
+
+
+    -- popitem()
+        >>> a.popitem()
+        ('Job-Title', 'Sr SW Engineer')
+        >>> a
+        {'name': 'Mark', 'age': 40, 'Degree': 'MTech'}
+
+    -- pop()    
+        >>> a.pop('Degree')
+        'MTech'
+        >>> a
+        {'name': 'Mark', 'age': 40}
+        
+    -- clear() 
+        >>> a.clear()
+        >>> a
+        {}
+    
+    -- setdefault()
+        >>> a
+        {'name': None}
+        >>> a.setdefault('age')
+        >>> a
+        {'name': None, 'age': None}
+    
+    -- fromkeys()
+        >>> a.fromkeys(["name","age","Degree","Job-Title"],["Mark",40,"MS","Sr SW Engineer"])
+        {'name': ['Mark', 40, 'MS', 'Sr SW Engineer'], 'age': ['Mark', 40, 'MS', 'Sr SW Engineer'], 'Degree': ['Mark', 40, 'MS', 'Sr SW Engineer'], 'Job-Title': ['Mark', 40, 'MS', 'Sr SW Engineer']}
+        >>> a
+        {}
+        >>> a.fromkeys(["name","age","Degree","Job-Title"])
+        {'name': None, 'age': None, 'Degree': None, 'Job-Title': None}
+
+    
+"""
