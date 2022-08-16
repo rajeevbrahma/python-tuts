@@ -2,7 +2,3 @@ Python:
 
     Dictionary Methods
 
-GitHub:
-
-    push the code
-    and pull code

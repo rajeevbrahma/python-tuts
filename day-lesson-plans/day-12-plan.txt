@@ -1,0 +1,10 @@
+Python:
+
+    rest of dictionary Methods
+
+    Operators introduction 
+
+GitHub:
+
+    push the code
+    and pull code
