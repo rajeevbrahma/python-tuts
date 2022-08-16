@@ -56,10 +56,10 @@ dictionary_variable = {
 
 
 # To print the whole dictionary
-print (dictionary_variable)
+# print (dictionary_variable)
 
 # When you want to access value 34 from the above dictionary
-print (dictionary_variable["age"])
+# print (dictionary_variable["age"])
 
  
 """
@@ -138,3 +138,63 @@ print (dictionary_variable["age"])
 
     
 """
+
+student_details_dictionary = {
+                                "student_name":"Mark",
+                                "percentage":62.3,
+                                "grade":"B-",
+                                "isPassed":True,
+                                "teachers":{
+                                    "science":"Tr Michone",
+                                    "math":"Tr suzan"
+                                },
+                                "subjects":
+                                            {
+                                                "science":[True,52.3],
+                                                "math":[True,67.89]
+                                            },
+                                "other_activities":{
+                                                        "outdoor":"Cricket",
+                                                        "indoor":"Badminton"}
+                        }
+print (student_details_dictionary["subjects"]["science"].append(None))
+
+# print (student_details_dictionary)
+print (type(student_details_dictionary["teachers"]))
+print (type(student_details_dictionary["other_activities"]))
+print (student_details_dictionary["other_activities"].get("outdoor"))
+a = student_details_dictionary.copy()
+
+# print (student_details_dictionary)
+# print ("\n")
+# print (a)
+
+print (student_details_dictionary.get("grade"))
+print (student_details_dictionary.get("student_name"))
+print ("\n")
+print (student_details_dictionary["grade"])
+print (student_details_dictionary["student_name"])
+
+# To get the keys of a dictionary
+# print (student_details_dictionary["other_activities"].keys())
+
+print (student_details_dictionary["other_activities"].values())
+
+print (student_details_dictionary.get("other_activities").values())
+
+# a = student_details_dictionary.get("other_activities")
+# print (a.values())
+print (student_details_dictionary.items())
+
+student_details_dictionary["percentage"] = 34.99
+student_details_dictionary.update(
+                            {"isPassed":False,
+                            "percentage":34.98,
+                            "other_activities":2
+                        })
+student_details_dictionary.update({"other_activities":None})
+print (student_details_dictionary)
+
+
+
+
