@@ -1,0 +1,300 @@
+Last login: Fri Aug 19 06:07:11 on ttys000
+
+Python 3.8.9 (default, Oct 26 2021, 07:25:53) 
+[Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> not
+  File "<stdin>", line 1
+    not
+      ^
+SyntaxError: invalid syntax
+>>> not True
+False
+>>> not False
+True
+>>> not 1
+False
+>>> not 0
+True
+>>> not 2
+False
+>>> not []
+True
+>>> not ""
+True
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 1 == 1
+True
+>>> 1 is 1
+<stdin>:1: SyntaxWarning: "is" with a literal. Did you mean "=="?
+True
+>>> a = 1
+>>> a is 1
+<stdin>:1: SyntaxWarning: "is" with a literal. Did you mean "=="?
+True
+>>> a = 1
+>>> b = 1
+>>> a is b
+True
+>>> a = "python"
+>>> b = "Python"
+>>> a is b
+False
+>>> a is not b
+True
+>>> a is int
+False
+>>> a = 1
+>>> a is int
+False
+>>> help("is")
+
+>>> 1 == 1
+True
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 1 is 1
+<stdin>:1: SyntaxWarning: "is" with a literal. Did you mean "=="?
+True
+>>> bin(1)
+'0b1'
+>>> bin(2)
+'0b10'
+>>> bin(4)
+'0b100'
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> bin(7)
+'0b111'
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 8 & 7
+0
+>>> 8 and 7
+7
+>>> 8 & 7
+0
+>>> bin(4)
+'0b100'
+>>> bin(5)
+'0b101'
+>>> 4 & 5
+4
+>>> bin(2)
+'0b10'
+>>> bin(7)
+'0b111'
+>>> 2 & 7
+2
+>>> 2**3
+8
+>>> 2 & 7
+2
+>>> 8 & 1
+0
+>>> 8 | 1
+9
+>>> 7 | 3
+7
+>>> 4 | 1
+5
+>>> 4 || 1
+  File "<stdin>", line 1
+    4 || 1
+       ^
+SyntaxError: invalid syntax
+>>> "a" | "b"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+>>> help("^")
+
+>>> 5 and 6 
+6
+>>> help("^")
+
+>>> 
+>>> 5 ^ 6
+3
+>>> help("^")
+
+>>> 
+>>> 7 ^ 3
+4
+>>> 7 ^ 3 ^ 4
+0
+>>> 7 ^ 3 ^ 5
+1
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> "P" in "Python"
+True
+>>> "p" in "Python"
+False
+>>> "Python" in "Python"
+True
+>>> "Python" in "Python "
+True
+>>> "Ptyohn" in "Python"
+False
+>>> [1,2,3] in [1,2,3]
+False
+>>> [1] in [1,2,3]
+False
+>>> 1 in [1,2,3]
+True
+>>> [1] in [1,2,3,[1]]
+True
+>>> 1 in 1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: argument of type 'int' is not iterable
+>>> 1 in True
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: argument of type 'bool' is not iterable
+>>> a = {1:1,2:2,3:3}
+>>> b = 1
+>>> check if b is one in the dicitionary a's list keys
+  File "<stdin>", line 1
+    check if b is one in the dicitionary a's list keys
+                             ^
+SyntaxError: invalid syntax
+>>> b in a.keys()
+True
+>>> b in a.values()
+True
+>>> a in b
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: argument of type 'int' is not iterable
+>>> b in a
+True
+>>> a
+{1: 1, 2: 2, 3: 3}
+>>> b
+1
+>>> a.update({1:"python"})
+>>> a
+{1: 'python', 2: 2, 3: 3}
+>>> b
+1
+>>> b in a
+True
+>>> 4 in a
+False
+>>> "python" in a
+False
+>>> b in a 
+True
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> a
+{1: 'python', 2: 2, 3: 3}
+>>> b
+1
+>>> b = "python"
+>>> b
+'python'
+>>> b in a
+False
+>>> b in a.values()
+True
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> retrn_message = {
+...         "msg":{"reason":"success"},
+...         "code":200
+... }
+>>> retrn_message
+{'msg': {'reason': 'success'}, 'code': 200}
+>>> "msg" in retrn_message
+True
+>>> retrn_message = {
+...         "err":{"reason":"unauthorized access"},
+...         "code":"401"
+... }
+>>> retrn_message
+{'err': {'reason': 'unauthorized access'}, 'code': '401'}
+>>> "msg" in retrn_message
+False
+>>> 
+>>> 
+>>> 
+>>> 
+>>> a = 1
+>>> a |= 4
+>>> a
+5
+>>> 1 | 4
+5
+>>> help('operators')
+No Python documentation found for 'operators'.
+Use help() to get the interactive help utility.
+Use help(str) for help on the str class.
+
+>>> help('&')
+
+>>> 

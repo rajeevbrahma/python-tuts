@@ -86,10 +86,11 @@ print (not 1)
 
 """
         And Truth Table
-        1 and 1 1
-        0 and 1 0     
-        1 and 0 0
-        0 and 0 0
+                and    
+        1 and 1  1      
+        0 and 1  0      
+        1 and 0  0      
+        0 and 0  0  
 
         and returns the first operand if is false otherwise it returns the second
         operand
@@ -97,13 +98,22 @@ print (not 1)
         
 
         Or Truth Table
-        1 or 1 1
-        0 or 1 1
-        1 or 0 1
-        0 or 0 0
+                or      
+        1 or 1  1        
+        0 or 1  1        
+        1 or 0  1        
+        0 or 0  0        
 
         or returns the first operand if it is true otherwise it returns second 
         operand
+
+
+        xor Truth Table
+
+        1 ^ 1   0
+        1 ^ 0   1
+        0 ^ 1   1
+        0 ^ 0   0
 
 Exercise - try these combinations with both "and" and "or"
 
@@ -155,8 +165,94 @@ then
 firstname = ""
 lastname = "k"
 
-if (firstname == "joy" or lastname == "k")
+
+if (firstname == "joy" and lastname == "k")
         print ("yes")
+
+
+ischecked = False
+
+if (not ichecked):
+        print ("hehere")
+else:
+        print ("rest of the program")
+
+
+2**3,2**2,2**1,2**0
+
+         128  64   32   16     8    4    2      1 
+                                ==================    
+                                0    0    0      1     1
+                                0    0    1      0     2       
+                                0    0    1      1     3
+                                0    1    0      0     4
+                                0    1    0      1     5
+                                0    1    1      0     6
+                                0    1    1      1     7
+                                1    0    0      0     8
+
+
+
+
+   8   7
+1000 & 0111
+
+ 8 - 1000
+     (and)
+ 7 - 0111       
+ ---------
+     0000
+
+4 - 0100
+5 - 0101
+--------
+    0100 
+
+2 - 0010
+7 - 0111
+---------
+2   0010
+
+8 - 1000
+1 - 0001
+--------
+0   0000
+
+7 - 0111
+3 - 0011
+--------
+    0111
+
+4 - 0100
+1 - 0001
+--------
+    0101
+
+5 - 0101
+6 - 0110
+--------
+3   0011
+
+7 - 0111
+3 - 0011
+--------
+4   0100 
+    0101
+    0001
+
+
+
+retrn_message = {
+        "msg":{"reason":"success"},
+        "code":200
+}
+                other
+{
+        "err":{"reason":"unauthorized access"},
+        "code":"401"
+}
+
+"msg" in retrn_message
 
 
 
