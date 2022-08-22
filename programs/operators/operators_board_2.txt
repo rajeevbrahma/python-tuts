@@ -1,0 +1,209 @@
+Python 3.8.9 (default, Oct 26 2021, 07:25:53) 
+[Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> asignee = 10.0
+>>> asignee &=10.0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for &=: 'float' and 'float'
+>>> asignee = 10
+>>> asignee &=10
+>>> asignee
+10
+>>> asignee = 10
+>>> asignee << 2
+40
+>>> assignee1 = 4   #0100
+>>> assignee1 &= 10 #1100 # => assignee = assignee & 10
+>>> print ("assignee1", assignee1)
+assignee1 0
+>>> 10 << 1
+20
+>>> bin(10)
+'0b1010'
+>>> 5 << 1
+10
+>>> bin(5)
+'0b101'
+>>> 33 >> 1
+16
+>>> 76 >> 2
+19
+>>> 34 >> 3
+4
+>>> 3 << 1
+6
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> a = 1
+>>> b = "python"
+>>> c = 1
+>>> d = "python"
+>>> id(a)
+4315865352
+>>> id(c)
+4315865352
+>>> id(b)
+4317537328
+>>> id(d)
+4317537328
+>>> a is c
+True
+>>> a = 1
+>>> b = "1"
+>>> a == b
+False
+>>> a == int(b)
+True
+>>> a is b
+False
+>>> a is int(b)
+True
+>>> b = "1"
+>>> id (d)
+4317537328
+>>> id (a)
+4315865352
+>>> id (int(a))
+4315865352
+>>> a = 1
+>>> b = "1"
+>>> id(a)
+4315865352
+>>> id(b)
+4317537392
+>>> id (int(b))
+4315865352
+>>> f = >>> a is int(b)(int(b))
+  File "<stdin>", line 1
+    f = >>> a is int(b)(int(b))
+        ^
+SyntaxError: invalid syntax
+>>> a = [1,2,3]
+>>> b = [1,2,3]
+>>> id(a)
+4317494912
+>>> id(b)
+4317494976
+>>> d = a
+>>> id (d)
+4317494912
+>>> a is d
+True
+>>> a id b
+  File "<stdin>", line 1
+    a id b
+      ^
+SyntaxError: invalid syntax
+>>> a is b
+False
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> a = [1,2,3]
+>>> b = [1,2,3]
+>>> id (a)
+4317495040
+>>> id (b)
+4317536320
+>>> e = a
+>>> f = a
+>>> e is a
+True
+>>> f is a
+True
+>>> f.append(1)
+>>> f
+[1, 2, 3, 1]
+>>> f is a
+True
+>>> a == b
+False
+>>> a
+[1, 2, 3, 1]
+>>> b
+[1, 2, 3]
+>>> a.pop
+<built-in method pop of list object at 0x10157bf00>
+>>> a.pop()
+1
+>>> a
+[1, 2, 3]
+>>> b
+[1, 2, 3]
+>>> a == b
+True
+>>> a is b
+False
+>>> e = a
+>>> f = a
+>>> e is a
+True
+>>> f is a
+True
+>>> f is e
+True
+>>> f.append(4)
+>>> a
+[1, 2, 3, 4]
+>>> f
+[1, 2, 3, 4]
+>>> e
+[1, 2, 3, 4]
+>>> b
+[1, 2, 3]
+>>> f is a
+True
+>>> e is a
+True
+>>> f is e
+True
+>>> id(a[0])
+4315865352
+>>> id(a)
+4317495040
+>>> id(a[0])
+4315865352
+>>> id(f[0])
+4315865352
+>>> id(f[0])
+4315865352
+>>> id(e[0])
+4315865352
+>>> a = [1,2,3,4]
+>>> b = [1,2,3,4]
+>>> a == b
+True
+>>> a is b
+False
+>>> a[0] is b[0]
+True
+>>> a[0] == b[0]
+True
+>>> a[0] is b[0]
+True
+>>> id (a[0])
+4315865352
+>>> id (b[0])
+4315865352
+>>> a[0] is not b[0]
+False
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> a is b
+False
+>>> 
