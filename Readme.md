@@ -63,9 +63,13 @@ Machinecode: (binary formatted code)
 
 ![Alt text](images/python-way-of-storing-values.png)
 
+# Memory Optimzation in Python
+
+![Alt text](images/python_memory_optimization.png)
 # List Indexing
 
 ![Alt text](images/list_indexing.png)
+
 
 # List and Dictionary Difference
 
