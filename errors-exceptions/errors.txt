@@ -45,6 +45,16 @@ IndexError:
     then you can see this KeyError
 
 
-NameError
+AttributeError: 'list' object has no attribute 'update'
 
-TypeError
+
+NameError:
+  b+=1
+  [Note : b is not declared here]
+  NameError: name 'b' is not defined
+
+TypeError:
+
+    File "<stdin>", line 1, in <module>
+    TypeError: unsupported operand type(s) for -: 'str' and 'str'
+
