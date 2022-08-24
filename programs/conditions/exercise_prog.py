@@ -110,3 +110,35 @@ else:
 
 print(person_with_more_hobbies)
 
+# who doesnt has the middle name
+
+people_who_doesnt_has_middle_name = []
+if (family_details["husband"]["middle_name"] == None):
+    people_who_doesnt_has_middle_name.append(family_details["husband"]["first_name"])
+if (family_details["wife"]["middle_name"] == None):
+    people_who_doesnt_has_middle_name.append(family_details["wife"]["first_name"])
+if (family_details["children"][0]["middle_name"] == None):
+    people_who_doesnt_has_middle_name.append(family_details["children"][0]["first_name"])
+if (family_details["children"][1]["middle_name"] == None):
+    people_who_doesnt_has_middle_name.append(family_details["children"][1]["first_name"])
+
+print (people_who_doesnt_has_middle_name)
+
+# who is younger oliver or Gus ?
+
+if (family_details["pets"][0]["age"] < family_details["pets"][1]["age"]):
+    print (family_details["pets"][1]["name"])
+else:
+    print(family_details["pets"][0]["name"])
+
+
+# Are both the pets Male or Female ? 
+# [Note: Please correct the following incase if you have one male and female dog in the family details]
+if (family_details["pets"][0]["gender"] == "Male" and family_details["pets"][1]["gender"] == "Male"):
+    print ("Both are Male")
+else:
+    print ("Both are FeMale")
+
+
+
+
