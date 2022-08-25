@@ -21,7 +21,7 @@
                                 in, not in
         
         Bitwise operators 
-                                & | ^ 
+                                & | ^ >> <<
 
 
 """
