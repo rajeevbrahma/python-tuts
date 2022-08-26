@@ -15,30 +15,34 @@ family_details.update({
                 )
 
 family_details.update({
-    "wife":{
-        "first_name":"Jane",
-        "middle_name":None,
-        "last_name":"Doe",
-        "age":35,
-        "occupation":None,
-        "hobbies":["Tv","Cooking","Craft"]
-    }
+                "wife":{
+                    "first_name":"Jane",
+                    "middle_name":None,
+                    "last_name":"Doe",
+                    "age":35,
+                    "occupation":None,
+                    "hobbies":["Tv","Cooking","Craft"]
+                }
 })
 
 family_details.update({
     "children":[
-        {"first_name":"Shane",
-        "middle_name":"Watson",
-        "last_name":"Doe",
-        "age":12,
-        "occupation":None,
-        "hobbies":["Dance","Tv"]},
-        {"first_name":"Lilly",
-        "middle_name":"",
-        "last_name":"Doe",
-        "age":5,
-        "occupation":None,
-        "hobbies":["Tv"]}
+        {
+            "first_name":"Shane",
+            "middle_name":"Watson",
+            "last_name":"Doe",
+            "age":12,
+            "occupation":None,
+            "hobbies":["Dance","Tv"]
+        },
+        {
+            "first_name":"Lilly",
+            "middle_name":"",
+            "last_name":"Doe",
+            "age":5,
+            "occupation":None,
+            "hobbies":["Tv"]
+        }
     ]
 })
 
@@ -46,16 +50,38 @@ family_details.update({
     "pets":[
         {
             "name":"Oliver",
-            "age":7,
+            "age":"5",
             "gender":"Male"
         },
         {
             "name":"Gus",
-            "age":5,
+            "age":7,
             "gender":"Male"
         }
     ]
 })
+
+if (family_details["pets"].get(0).get("gender") == "Male" and family_details["pets"].get(1).get("gender") == "Male")
+    print ("Both are males")
+
+"""    
+    confirm if both are males
+    confirm if both are females
+    if not let me know who is male and who is female
+"""
+
+
+if (type(family_details["pets"][0]["age"]) is int and type(family_details["pets"][1]["age"]) is int ):
+
+    if(family_details["pets"][0]["age"] == family_details["pets"][1]["age"]):
+        print ("same")
+    elif (family_details["pets"][0]["age"] > family_details["pets"][1]["age"]):
+        print ("Oliver")
+    else:
+        print ("Gus")
+else:
+    print ("One of the operands is of not integer type")
+
 
 
 # who has more number of hobbies
@@ -113,7 +139,8 @@ print(person_with_more_hobbies)
 # who doesnt has the middle name
 
 people_who_doesnt_has_middle_name = []
-if (family_details["husband"]["middle_name"] == None):
+
+if (family_details["husband"]["middle_name"] == None or family_details["husband"]["middle_name"] == ""):
     people_who_doesnt_has_middle_name.append(family_details["husband"]["first_name"])
 if (family_details["wife"]["middle_name"] == None):
     people_who_doesnt_has_middle_name.append(family_details["wife"]["first_name"])
