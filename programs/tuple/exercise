@@ -1,0 +1,41 @@
+
+"""
+    [
+        {1:2,2:4,3:6....50:100},
+        {1:102,2:104.....}
+    ]
+
+
+"""
+
+
+result_list = []
+
+even_number_range = 6    # till 400, and you should have 4 dictionaries in the result list
+
+
+range_limits = []
+for each_range in range(even_number_range):
+    start_index = each_range * 100 + 1
+    stop_index = 100 + start_index
+
+    range_limits.append((start_index,stop_index))
+
+print (range_limits)
+# range_limits = [(1,101),(201,301),(301,401)]
+
+for start,stop in range_limits:
+    
+    dict_key_name = 1
+    number_dict = {}
+ 
+    for each_number in range(start,stop):
+                                        
+        if (each_number%2 == 0):            
+            number_dict.update({dict_key_name:each_number}) 
+        
+            dict_key_name+=1
+
+    result_list.append(number_dict)
+
+# print (result_list)
