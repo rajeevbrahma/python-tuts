@@ -1,0 +1,19 @@
+# write a function which takes an integer argument and gives the sqaure of that number as return value
+
+    #5
+    #25
+
+# write a function which takes an integer as an argument and gives the times table till 12 result as a list
+
+    #2
+    #[2,4,6,8,10....24]
+
+# write a function which takes an empty list and integer as arguments and gives back the following
+
+    # 4,[]
+    # [4,16,64,256,1024]
+
+# write a function which takes a list with integers as arguement and gives back even numbers from that list
+
+    # [1,2,3,4,5,8,12]
+    # [2,4,8,12]
