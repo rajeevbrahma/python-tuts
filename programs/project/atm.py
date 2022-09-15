@@ -1,13 +1,16 @@
-import bank_actions
+import customer_operations,transactions
 
 
 while True:
-
     choice = int(input("Select options 1. add, 2. update, 3. read, 4. delete"))
     if (choice == 1):
-        bank_actions.add_customer()
+        customer_operations.add_customer()
     elif(choice == 2):
-        bank_actions.update_customer()
+        rtn = transactions.authentication()
+        if (rtn[0]):
+            customer_operations.update_customer(account_number=1234)
+        else:
+            print (rtn[1])
     else:
         print ("invlid operation")
 
