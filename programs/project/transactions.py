@@ -23,14 +23,32 @@ def authentication():
     else:
         return False,"Account not found"
     
+def balance_check(account_number,amount):
+    if (customer_information[account_number]["balance"] >= amount):
+        return True
+    else:
+        return False
 
-def deposit_money():
-    pass 
+def balance_display(account_number):
+    print (customer_information[account_number]["balance"])
 
-def withdraw_money():
-    pass 
+def deposit_money(account_number,deposit_amount):
+    customer_information[account_number]["balance"]+=deposit_amount 
+
+def withdraw_money(account_number,withdraw_amount):
+    if (balance_check(account_number,withdraw_amount)):
+        customer_information[account_number]["balance"]-=withdraw_amount 
 
 def transfer_money():
+    # authentication
+    # check for payee account in customer informatino 
+    # if exists
+        # payers balance we have to check
+        # if enough amount to transfer
+            # update payees account with the amount
+            # subtract the amount from payer account information
+        # else Not enough money to transfer
+    # else payee doesnt exist    
     pass 
 
 

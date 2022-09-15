@@ -120,7 +120,7 @@ def add_customer():
     print (customer_information)
 
 def get_customer(account_number):
-    pass
+    print (customer_information[account_number])
 
 def update_customer(account_number):
     choice = input("Select 1. Password Update, 2. Address Update")
@@ -137,13 +137,9 @@ def update_customer(account_number):
     print ("Successfully updated !! ")
     print (customer_information[account_number])
 
-     
-
-    
-
-
-def delete_customer():
-    pass
+def delete_customer(account_number):
+    del customer_information[account_number]
+    print (customer_information)
 
 
 

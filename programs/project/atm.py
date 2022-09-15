@@ -2,7 +2,7 @@ import customer_operations,transactions
 
 
 while True:
-    choice = int(input("Select options 1. add, 2. update, 3. read, 4. delete"))
+    choice = int(input("Select options 1. add, 2. update, 3. read, 4. delete 5. balance check"))
     if (choice == 1):
         customer_operations.add_customer()
     elif(choice == 2):
@@ -15,6 +15,18 @@ while True:
         rtn = transactions.authentication()
         if (rtn[0]):
             customer_operations.get_customer(rtn[1])
+        else:
+            print (rtn[1])
+    elif(choice == 4):
+        rtn = transactions.authentication()
+        if (rtn[0]):
+            customer_operations.delete_customer(rtn[1])
+        else:
+            print (rtn[1])
+    elif(choice == 5):
+        rtn = transactions.authentication()
+        if (rtn[0]):
+            transactions.balance_display(rtn[1])
         else:
             print (rtn[1])
 
