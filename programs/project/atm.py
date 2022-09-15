@@ -8,9 +8,16 @@ while True:
     elif(choice == 2):
         rtn = transactions.authentication()
         if (rtn[0]):
-            customer_operations.update_customer(account_number=1234)
+            customer_operations.update_customer(rtn[1])
         else:
             print (rtn[1])
+    elif(choice == 3):
+        rtn = transactions.authentication()
+        if (rtn[0]):
+            customer_operations.get_customer(rtn[1])
+        else:
+            print (rtn[1])
+
     else:
         print ("invlid operation")
 

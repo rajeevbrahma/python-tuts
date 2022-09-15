@@ -119,8 +119,8 @@ def add_customer():
 
     print (customer_information)
 
-def get_customer():
-    pass 
+def get_customer(account_number):
+    pass
 
 def update_customer(account_number):
     choice = input("Select 1. Password Update, 2. Address Update")
