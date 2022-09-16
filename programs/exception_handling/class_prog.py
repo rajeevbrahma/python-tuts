@@ -1,57 +1,57 @@
 
 
+a = [1,2]
+print ("hello")
 
-# print ("hello")
-
-# try:
-#     print (b)
-# except Exception as exception:
-#     print (exception)
-#     print ("some thing wrong above")
-# else:
-#     print (a)
-#     print ("No Error above")   # when your try block fails
-# finally:
-#     print ("always will get excuted")   # clean up
-
-
-# print ("world")
-
-# c = {"a":1}
-# a = [1,2]
-
-# try:
-#     print (c['b'])
-# except KeyError as err:
-#     print (err,type(err))
-#     print ("return mail to customer c complaining about the formula variable b")
-#     c["b"] = 3 
-
-# try:
-#     print (a[2])
-# except IndexError as err:
-#     print (err,type(err))
-#     print ("return mail to customer a complaining about the list length")
-#     a.append(1)
+try:
+    print (b)
+except Exception as exception:
+    print (exception)
+    print ("some thing wrong above")
+else:
+    print (a)
+    print ("No Error above")   # when your try block fails
+finally:
+    print ("always will get excuted")   # clean up
 
 
+print ("world")
 
-# print ("hello world")
-# print (c)
+c = {"a":1}
+a = [1,2]
 
-# try:
-#     print (c['a'])
-#     print (a[2])
-# except Exception as err:
-#     print (err,type(err))
-#     print ("return mail to customer c complaining about the formula variable b")
-#     c["b"] = 3 
-#     print ("return mail to customer a complaining about the list length")
-#     a.append(1)
+try:
+    print (c['b'])
+except KeyError as err:
+    print (err,type(err))
+    print ("return mail to customer c complaining about the formula variable b")
+    c["b"] = 3 
 
-# print (a)
-# print (a[2])
-# 
+try:
+    print (a[2])
+except IndexError as err:
+    print (err,type(err))
+    print ("return mail to customer a complaining about the list length")
+    a.append(1)
+
+
+
+print ("hello world")
+print (c)
+
+try:
+    print (c['a'])
+    print (a[2])
+except Exception as err:
+    print (err,type(err))
+    print ("return mail to customer c complaining about the formula variable b")
+    c["b"] = 3 
+    print ("return mail to customer a complaining about the list length")
+    a.append(1)
+
+print (a)
+print (a[2])
+
 dict_var = {"a":[0.5],"b":[1,1],"c":"1"}
 try:
 
