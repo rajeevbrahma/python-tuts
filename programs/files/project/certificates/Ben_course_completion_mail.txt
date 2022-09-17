@@ -1,0 +1,10 @@
+
+*********** Letter of Course Completion ***********
+
+sub : informing about the Python Course completion
+
+Hello Ben,
+    Congratulations !! on Completing your course successfully.
+
+regards,
+Rajeev
