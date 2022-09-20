@@ -32,33 +32,33 @@ modes
 
 # Open/create a file 
 
-# file = open("book.txt",'w+')
+file = open("book.txt",'w+')
 
-# file.writelines("dfasdfasd,asdfasd,fas,dfa,sdf,asdf,asdf,asd,fa,sd")
+file.writelines(["line 1 \n","line 2 \n","line 3 \n","line 4 \n"])
 
-# cursor = file.tell()
+cursor = file.tell()
 
-# print (cursor)
+print (cursor)
 
-# file.seek(0,0)
-# cont = file.read(2)
-# print (cont)
+file.seek(0,0)
+cont = file.read(2)
+print (cont)
 
-# cursor = file.tell()
-# print (cursor)
+cursor = file.tell()
+print (cursor)
 
-# file.seek(2,0)   # argument 1 - where to start in a file, argument 2 - 0,1,2 
-#                                                                     # 0 - from the begining
-#                                                                     # 1 - where your cursor is
-#                                                                     # 2 - from the end
+file.seek(2,0)   # argument 1 - where to start in a file, argument 2 - 0,1,2 
+                                                                    # 0 - from the begining
+                                                                    # 1 - where your cursor is
+                                                                    # 2 - from the end
 
-# file.write("abcdef")
+file.write("abcdef")
 
-# # # file.seek(0,0)
-# # # content = file.read(20)
-# # # print (content)
+# # file.seek(0,0)
+# # content = file.read(20)
+# # print (content)
 
-# file.close()
+file.close()
 
 
 file = open("book.txt",'w+')

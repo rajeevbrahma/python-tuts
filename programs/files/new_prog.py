@@ -17,8 +17,6 @@
 
 # new file 
 
-from codecs import utf_7_encode
-
 
 file_name = open("book.txt","wb")
 

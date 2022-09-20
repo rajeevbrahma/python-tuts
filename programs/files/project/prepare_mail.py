@@ -2,20 +2,24 @@ import csv          # module which has methods/functions to read and write csv f
 
 
 # opening two files 
-with open("./data/mail_template.txt","r+") as mail_template, open("./data/participants.csv") as participants_file:
+with open("./data/mail_template.txt","r+") as mail_template, open("./data/participants.csv","r") as participants_file:
     
     # reading lines from the .txt file
     content = mail_template.readlines()
+    print (content)
 
     # reading csv contents using DictReader method
     participants = csv.DictReader(participants_file)
     
     # iterating through all the participants and preparing the certificate
     for participant in participants:
+        # print (participant)
 
         # We know that the "Hello" is in line number 5
         # preparing the hello message for each participant
-        content[5] = content[5][:-1] + participant["name"] + ","        
+        content[5] = content[5][:-1] + participant["name"] + ",\n"      
+
+        print (content)  
             
         name = participant["name"]
         # creating certificate file for the participant
