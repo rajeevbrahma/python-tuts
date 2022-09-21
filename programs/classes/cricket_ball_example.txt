@@ -1,0 +1,35 @@
+
+class Basebankclass:    # parent calss
+    pass 
+    # account
+    # finance
+    # employee
+
+
+class IndusBandClass(Basebankclass): # child class
+    #account
+    # finance
+    # employee
+    # industrial txns
+
+class PersnalBankClas(Basebankclass):  # child class
+    #account
+    # finance
+    # employee
+    # personal txns
+
+
+# class Ball:
+#     pass
+#     # round
+#     # bounce
+
+# class CricketBall(Ball):
+#     pass 
+#     # round
+#     # bounce
+#     # hard
+#     # size
+
+# wc1 = CricketBall()
+
