@@ -38,8 +38,8 @@ class Calculator:
         self.op1 = op1
         self.op2 = op2
 
-calc_1 = Calculator()
-calc_2 = Calculator()
+calc_1 = Calculator(1,2)
+calc_2 = Calculator(1,2)
 
 print (calc_1,type(calc_1))
 print (calc_2,type(calc_2))
@@ -124,6 +124,11 @@ class Book:
         # print (f"{author},{book_name}")
         self.author = author
         self.book_name = book_name
+        self.__price = 10
+
+    def edit_private(self,x):
+        self.__price = x
+        return self.__price
 
     def display(self):
         return (f"{Book.publisher}'s Book name is {self.book_name} and the author is {self.author}")
@@ -138,7 +143,12 @@ b1 = Book("autho 1","book 1")
 b2 = Book("autho 1","book 2")
 b3 = Book("autho 2","book 3")
 
+print (b3.edit_private(4))
 
-print (b1.display())
-print (b2.display())
-print (b3.display())
+
+# b3._price = 1
+# print (b3.price)
+
+# print (b1.display())
+# print (b2.display())
+# print (b3.display())
