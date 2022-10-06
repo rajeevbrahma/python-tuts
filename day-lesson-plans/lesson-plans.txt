@@ -1,0 +1,37 @@
+Functions without variables
+Functions with variables
+Function with variables and return
+Function with default variables
+scope of variables 
+
+try, except, finally 
+Different kinds of exceptions 
+
+Modules
+    Creating own module and importing it from another program
+    Date
+    Random
+
+File accessing
+    Open
+    Write
+    Read
+    Append
+
+Classes
+
+    Creation
+    Method Creation
+    Object Creation
+    Inheritance 
+    Usage of Super 
+
+
+Mysql CRUD operations using pymongo module 
+
+API calls using request module
+
+Sample project - 4 days
+
+git repo collaboration for calculator project. 
+
