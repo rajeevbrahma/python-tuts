@@ -30,7 +30,7 @@ class HouseEvaluation:
 
     def verifiedSeller(self):
         return self.__proofOfOwnerShip()
-
+    
 
     def price (self):
         calculated_price = self.sqft * HouseEvaluation.landRate * self.evaluation_score
